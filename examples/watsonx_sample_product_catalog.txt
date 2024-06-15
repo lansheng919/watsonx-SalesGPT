@@ -1,0 +1,27 @@
+
+Watsonx.ai: Watsonx.ai is an AI and data platform that helps you scale and accelerate the impact of AI with trusted data across your business. With Watsonx.ai, you can train, validate, tune and deploy foundation and machine learning models with ease. Explore Watsonx.ai today to multiply the power of AI with our next-generation AI and data platform.
+
+Watsonx.data: Watsonx.data is the industry’s only data store that is open, hybrid and governed. It scales analytics and AI workloads for all your data, anywhere. With Watsonx.data, you can make use of all your data, wherever it resides. Tap into a hybrid cloud architecture that provides the data foundation for extending AI deep into your business. Improve data access, apply governance, cut costs, and get quality models into production faster.
+
+Watsonx.governance: Watsonx.governance is a solution that helps you direct, manage and monitor your organization’s AI activities. It accelerates responsibility, transparency and explainability in your data and AI workflows. Watsonx.governance can detect AI bias as well as model drift, a type of technical issue that causes neural networks to become less accurate over time. General availability of Watsonx.governance is expected in December.
+
+Watsonx assistant: Watsonx assistant is a set of AI assistants designed to help you scale and accelerate the impact of AI with trusted data across your business. The watsonx AI assistants empower individuals in your organization to do work without expert knowledge across a variety of business processes and applications, including automating customer service, generating code, and automating key workflows in departments such as HR.
+
+client stories:
+Intel
+“We recognize the importance of watsonx.data and the development of the open-source components that it’s built upon. We look forward to partnering with IBM to optimize the watsonx.data stack, achieving breakthrough performance through our joint technological contributions to the Presto open source community.” – Das Kamhout, VP and Senior Principal Engineer, Cloud and Enterprise Software Group at Intel
+Technology Dynamics, Inc
+“Having watsonx.ai to ease the organizational and contractual concerns and accelerators like NeuralSeek to speed implementation and maintenance time allow us to slash delivery time from 3–4 months down to 3–4 weeks for many customer care use cases.” – Marc Martina, Owner, President/CEO, Technology Dynamics, Inc.
+
+CrushBank
+“We are especially interested in leveraging the summarization features in watsonx.ai to greatly improve service delivery. Providing IT agents with a comprehensive and accurate information source quickly and reliably eliminates the need to go through multiple documents manually. Integrating watsonx.ai capabilities with our data information sources, we can correlate and summarize information from various documents, delivering concise natural language answers.” – David Tan, CTO, CrushBank Technology, Inc.
+
+
+Watsonx is an AI and data platform with three core components and a set of AI assistants designed to help you scale and accelerate the impact of AI with trusted data across your business.
+The core components include: a studio for new foundation models, generative AI and machine learning; a fit-for-purpose data store built on an open data lakehouse architecture; and a toolkit, to accelerate AI workflows that are built with responsibility, transparency and explainability.
+
+Why watsonx?
+Open: watsonx is based on the best open technologies available, providing model variety to cover enterprise use cases and compliance requirements.
+Trusted: watsonx is transparent, responsible and governed. IBM’s models are trained on trusted datasets, eliminating legal, regulatory, ethical and inaccuracy concerns.
+Targeted: watsonx is designed for enterprise and targeted at business domains; watsonx is designed for business use cases that unlock new value.
+Empowering: watsonx lets you go beyond just being an AI user and become an AI value creator, allowing you to train, fine-tune and deploy, and govern the data and AI models you bring to the platform and own completely the value they create.
