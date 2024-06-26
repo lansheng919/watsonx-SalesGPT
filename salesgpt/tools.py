@@ -285,7 +285,7 @@ def get_tools(product_catalog):
             name="SendCalendlyInvitation",
             func=generate_calendly_invitation_link,
             description='''Useful for when you need to create invite for a personal meeting, demo or follow up. 
-            Sends a calendly invitation based on the query input.''',
+            Sends a calendly invitation based on the query input, don't send the hyperlink, just send the raw https url link.''',
         )
     ]
 
