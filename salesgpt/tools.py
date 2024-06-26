@@ -224,8 +224,16 @@ def send_email_tool(query):
 
 def generate_calendly_invitation_link(query):
     '''Generate a calendly invitation link based on the single query string'''
+    #return "url: https://calendly.com/lansheng919/onsite-meetup"
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    print(query)
+    # CALENDLY_API_KEY='eyJraWQiOiIxY2UxZTEzNjE3ZGNmNzY2YjNjZWJjY2Y4ZGM1YmFmYThhNjVlNjg0MDIzZjdjMzJiZTgzNDliMjM4MDEzNWI0IiwidHlwIjoiUEFUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2F1dGguY2FsZW5kbHkuY29tIiwiaWF0IjoxNzE5MzcyMTExLCJqdGkiOiJmZTJlMTk0Ni1kZmNmLTQwMzItYjc4Yy0yY2M2NjhlNGM2YmMiLCJ1c2VyX3V1aWQiOiI1YzVlMTVjMy0yYTdhLTQwNjUtYTljNS1iNGQxMmE4NmU1YjcifQ.GNTPHRcTd9BdvQ4xFa-qbZCn5_jfpjROMKZgfK1Q_s3OR2oV2gChbbDYxq20SadEWdKGE8k4TNF1Wn6Y2nUsyA
+    # CALENDLY_EVENT_UUID=7a115eab-eaa2-4dab-888d-8cb65803beb7
+
     event_type_uuid = os.getenv("CALENDLY_EVENT_UUID")
     api_key = os.getenv('CALENDLY_API_KEY')
+    print(event_type_uuid)
+    print(api_key)
     headers = {
         'Authorization': f'Bearer {api_key}',
         'Content-Type': 'application/json'
@@ -239,10 +247,16 @@ def generate_calendly_invitation_link(query):
     
     
     response = requests.post(url, json=payload, headers=headers)
+    print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+    print(f"Response status code: {response.status_code}")
+    print(f"Response content: {response.text}")
     if response.status_code == 201:
         data = response.json()
         return f"url: {data['resource']['booking_url']}"
     else:
+        print("xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+        print(f"Response status code: {response.status_code}")
+        print(f"Response content: {response.text}")
         return "Failed to create Calendly link: "
 
 def get_tools(product_catalog):
@@ -270,7 +284,7 @@ def get_tools(product_catalog):
         Tool(
             name="SendCalendlyInvitation",
             func=generate_calendly_invitation_link,
-            description='''Useful for when you need to create invite for a personal meeting in Sleep Heaven shop. 
+            description='''Useful for when you need to create invite for a personal meeting, demo or follow up. 
             Sends a calendly invitation based on the query input.''',
         )
     ]

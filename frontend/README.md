@@ -20,7 +20,7 @@ After starting the server, the application will be available at [localhost:3000/
 
 ### Backend Dependency
 
-This frontend application is designed to work in conjunction with a FastAPI backend. To initiate the backend server, execute the following command from the SalesGPT/ directory: `uvicorn run_api:app --port 8000`
+This frontend application is designed to work in conjunction with a FastAPI backend. To initiate the backend server, execute the following command from the watsonx-SalesGPT/ directory: `uvicorn run_api:app --port 8000`
 
 
 ## Setup help 
