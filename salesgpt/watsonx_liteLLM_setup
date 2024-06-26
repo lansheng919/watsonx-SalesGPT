@@ -1,0 +1,22 @@
+export WATSONX_URL="https://us-south.ml.cloud.ibm.com"
+export WATSONX_APIKEY="l8DEVEZAPbXKmBfz-0VnlxxIl_jJ5bAZFUeRoFroZ9T3"
+export WATSONX_PROJECT_ID="63299e64-02df-4e50-b48a-de8916d4b2cd"
+
+litellm --model watsonx/meta-llama/llama-3-70b-instruct --api_base http://0.0.0.0:4000
+litellm --model watsonx/ibm/granite-13b-chat-v2
+
+
+# Server running on http://0.0.0.0:4000
+
+curl --location 'http://0.0.0.0:21940/chat/completions' \
+--header 'Content-Type: application/json' \
+--data ' {
+      "model": "watsonx/ibm/granite-13b-chat-v2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Your name is"
+        }
+      ]
+    }
+'
