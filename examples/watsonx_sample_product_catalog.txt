@@ -7,6 +7,19 @@ Watsonx.governance: Watsonx.governance is a solution that helps you direct, mana
 
 Watsonx assistant: Watsonx assistant is a set of AI assistants designed to help you scale and accelerate the impact of AI with trusted data across your business. The watsonx AI assistants empower individuals in your organization to do work without expert knowledge across a variety of business processes and applications, including automating customer service, generating code, and automating key workflows in departments such as HR.
 
+IBM watsonx Orchestrate, powered by LLMs, is here to help by bringing generative AI and automation to every business domain across the enterprise. Delivers conversational AI and automation capabilities to transform how work gets done while increasing productivity, lowering costs and improving agility.
+
+IBM watsonx™ Code Assistant leverages generative AI to accelerate development while maintaining the principles of trust, security and compliance at its core. Developers and IT Operators can speed up application modernization efforts and generate automation to rapidly scale IT environments.
+
+IBM watsonx Code Assistant is powered by the IBM Granite foundation models that include state-of-the-art large language models designed for code, geared to help IT teams create high-quality code using AI-generated recommendations based on natural language requests or existing source code. 
+
+IBM Granite is IBM's flagship series of LLM foundation models based on decoder-only transformer architecture. Granite language models are trained on trusted enterprise data spanning internet, academic, code, legal and finance. Currently we have four models in the Granite series.
+
+Granite 13b chat: Chat model optimized for dialogue use cases and works well with virtual agent and chat applications
+Granite 13b instruct: Instruct model trained on high-quality finance data to perform well in finance domain tasks
+Granite multilingual: Trained to understand and generate text in English, German, Spanish, French and Portuguese
+Granite Japanese: Designed to perform language tasks on Japanese text
+
 client stories:
 Intel
 “We recognize the importance of watsonx.data and the development of the open-source components that it’s built upon. We look forward to partnering with IBM to optimize the watsonx.data stack, achieving breakthrough performance through our joint technological contributions to the Presto open source community.” – Das Kamhout, VP and Senior Principal Engineer, Cloud and Enterprise Software Group at Intel
